@@ -82,22 +82,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   من نحن - مستر أحمد فاضل
                 </button>
               </li>
-              <li>
-                <button 
-                  onClick={() => onNavigate('login')} 
-                  className="hover:text-amber-500 transition-colors text-right"
-                >
-                  تسجيل الدخول للطلاب
-                </button>
-              </li>
-              <li>
-                <button 
-                  onClick={() => onNavigate('register')} 
-                  className="hover:text-amber-500 transition-colors text-right"
-                >
-                  إنشاء حساب طالب جديد
-                </button>
-              </li>
             </ul>
           </div>
 
@@ -122,10 +106,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 <span className="w-1 h-1 rounded-full bg-amber-500/80"></span>
                 <span>الصف الأول الثانوي</span>
               </li>
-              <li className="flex items-center gap-2">
-                <span className="w-1 h-1 rounded-full bg-amber-500/80"></span>
-                <span>معسكرات المراجعة وليالي الامتحانات</span>
-              </li>
             </ul>
           </div>
 
@@ -147,7 +127,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               className="flex items-center justify-center gap-2 w-full py-3 px-4 rounded-xl font-bold text-sm bg-emerald-600 hover:bg-emerald-700 text-white shadow-md shadow-emerald-600/20 transition-all hover:scale-[1.02]"
             >
               <MessageCircle className="w-5 h-5" />
-              <span>واتساب: 01018432929</span>
+              <span>تواصل معنا</span>
             </button>
 
             <div className="text-xs text-neutral-500 dark:text-neutral-400 space-y-1">
@@ -160,10 +140,10 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-neutral-200 dark:border-neutral-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500 dark:text-neutral-400">
           <p>
-            جميع الحقوق محفوظة © {new Date().getFullYear()} لمنصة <span className="font-serif-display font-bold text-neutral-800 dark:text-[#F2F2F2]">The Sniper</span> | مستر أحمد فاضل (<span className="font-latin italic">M/Ahmed Fadel</span>)
+            جميع الحقوق محفوظة © {new Date().getFullYear()} لمنصة <span className="font-serif-display font-bold text-neutral-800 dark:text-[#F2F2F2]">The Sniper</span> ENG/ Adham Samir | (<span className="font-latin italic">Front-End Developer</span>)
           </p>
           <div className="flex items-center gap-4">
-            <span className="font-serif-display italic">Artistic Academic Excellence</span>
+            <span className="font-serif-display italic">ENG/ Adham Samir</span>
             <span>•</span>
             <span>تصميم بمعايير احترافية</span>
           </div>
