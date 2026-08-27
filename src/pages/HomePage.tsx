@@ -113,11 +113,11 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenCourse }) 
             {/* Left Content (Text & CTAs) */}
             <div className="lg:col-span-7 space-y-6 text-right">
               
-              {/* Artistic Badge */}
+              /* {/* Artistic Badge */}
               <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/30 text-xs sm:text-sm font-bold shadow-sm">
                 <Target className="w-4 h-4 text-amber-500" />
                 <span className="tracking-wide">المنصة الرسمية لمعلم اللغة الإنجليزية للمرحلة الثانوية</span>
-              </div>
+              </div> */
 
               {/* Title & Teacher Subtitle */}
               <div className="space-y-3">
