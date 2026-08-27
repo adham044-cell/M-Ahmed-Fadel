@@ -140,7 +140,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-neutral-200 dark:border-neutral-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500 dark:text-neutral-400">
           <p>
-            جميع الحقوق محفوظة © {new Date().getFullYear()} لمنصة <span className="font-serif-display font-bold text-neutral-800 dark:text-[#F2F2F2]">The Sniper</span> ENG/ Adham Samir | (<span className="font-latin italic">Front-End Developer</span>)
+            جميع الحقوق محفوظة © {new Date().getFullYear()} </span> ENG/ Adham Samir | <span className="font-latin italic">Front-End Developer</span>
           </p>
           <div className="flex items-center gap-4">
             <span className="font-serif-display italic">ENG/ Adham Samir</span>
