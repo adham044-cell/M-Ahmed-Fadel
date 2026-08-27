@@ -1,0 +1,6 @@
+{
+  "name": "The Sniper - M/Ahmed Fadel",
+  "description": "منصة The Sniper التعليمية لمستر أحمد فاضل - معلم اللغة الإنجليزية للمرحلة الثانوية",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
